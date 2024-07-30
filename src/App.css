@@ -1,0 +1,185 @@
+.container-fluid {
+  text-align: center;
+}
+
+
+#embed-1 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#embed {
+  margin-bottom: 8.5%;
+}
+
+#embed-2 {
+  background-image: url('https://res.cloudinary.com/dhqsixgmo/image/upload/v1722328014/Personal_Coach_Logo_BG_hqltyb.svg');
+  background-size: cover;
+}
+
+#header {
+  width: 100%;
+  font-size: calc(10px + 2vmin);
+  border-radius: 0.5em;
+}
+
+.card {
+  border: none;
+}
+
+#logo {
+  width: 75%;
+}
+
+#banner {
+  width: 50%;
+  background: transparent;
+  justify-content: center;
+}
+
+#home {
+  color:rgb(6, 6, 195);
+  text-decoration: none;
+}
+
+#home-icon {
+  margin-right: 2%;
+}
+
+#home:hover {
+  color: #c7b600;
+}
+
+#menu {
+  color:rgb(6, 6, 195);
+  text-decoration: none;
+}
+
+#menu-icon {
+  margin-right: 2%;
+}
+
+#menu:hover {
+  color: #c7b600;
+  cursor: pointer;
+}
+
+#custom {
+  color:rgb(6, 6, 195);
+  text-decoration: none;
+}
+
+#custom-icon {
+  margin-right: 2%;
+}
+
+#custom:hover {
+  color: #c7b600;
+  cursor: pointer;
+}
+
+#vault {
+  color:rgb(6, 6, 195);
+  text-decoration: none;
+}
+
+#vault-icon {
+  margin-right: 2%;
+}
+
+#vault:hover {
+  color: #c7b600;
+  cursor: pointer;
+}
+
+#list {
+  margin-right: 0.5%;
+}
+
+#link1 {
+  color: #61dafb;
+  text-decoration: none;
+  width: 100%;
+}
+
+#link1:hover {
+  text-decoration: none;
+  color: #f2ed00;
+}
+
+#footer-card {
+  background: none;
+  border: none;
+  font-size: 10pt;
+}
+
+#footer-title {
+  font-size: 90%;
+}
+
+#footer {
+  border-radius: 0.5em;
+  width: 100%;
+}
+
+#yelp {
+  color: #D22222;
+  font-size: 200%;
+}
+
+#twitter {
+  font-size: 200%;
+}
+
+#twitter:hover {
+  transition: all 0.3s ease-in-out;
+  font-size: 110%;
+  color: rgba(128, 128, 128, 0.506);
+}
+
+#insta {
+  color:  rgb(94, 79, 125);
+  font-size: 200%;
+}
+
+#insta:hover {
+  color: rgba(128, 128, 128, 0.506);
+  transition: all 0.3s ease-in-out;
+  font-size: 110%;
+}
+
+#yelp:hover {
+  transition: all 0.3s ease-in-out;
+  font-size: 110%;
+  color: rgba(128, 128, 128, 0.506);
+}
+
+#main-label {
+  border-bottom: 1px dashed black; 
+  margin-bottom: 3%; 
+  text-align: center; 
+  font-size: 125%
+}
+
+#inner-label {
+  margin-top: 2.5%; 
+  margin-bottom: 1%
+}
+
+#royal-icon {
+  width: 5%;
+  margin-top: 0.25%;
+}
+
+#footer-bold {
+  margin-bottom: 1%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
