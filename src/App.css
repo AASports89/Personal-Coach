@@ -9,7 +9,7 @@
 }
 
 #embed {
-  margin-bottom: 8.5%;
+  margin-bottom: 7.5%;
 }
 
 #embed-2 {
@@ -19,7 +19,7 @@
 
 #header {
   width: 100%;
-  font-size: calc(10px + 2vmin);
+  font-size: 175%;
   border-radius: 0.5em;
 }
 
@@ -120,6 +120,7 @@
 #footer {
   border-radius: 0.5em;
   width: 100%;
+  height: 200px;
 }
 
 #yelp {
@@ -154,21 +155,13 @@
   color: rgba(128, 128, 128, 0.506);
 }
 
-#main-label {
-  border-bottom: 1px dashed black; 
-  margin-bottom: 3%; 
-  text-align: center; 
-  font-size: 125%
-}
-
-#inner-label {
-  margin-top: 2.5%; 
-  margin-bottom: 1%
+#icon-link {
+  margin: 0;
 }
 
 #royal-icon {
-  width: 5%;
-  margin-top: 0.25%;
+  width: 15%;
+
 }
 
 #footer-bold {
