@@ -18,7 +18,7 @@
 }
 
 #header {
-  width: 100%;
+
   font-size: 175%;
   border-radius: 0.5em;
 }
@@ -174,5 +174,84 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.accordion {
+  background-color: #eee;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: 0;
+  padding: 0;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  #menu{
+    font-size: 50%;
+    margin-left: 10%;
+  }
+
+  #vault {
+    font-size: 50%;
+    margin-left: 10%;
+  }
+
+  #home {
+    font-size: 50%;
+    margin-left: 10%;
+  }
+
+  #custom {
+    font-size: 50%;
+    margin-left: 10%;
+  }
+
+  #logo {
+    width: 35%;
+    float:right
+  }
+
+  #yelp {
+    font-size: 100%;
+  }
+
+  #twitter {
+    font-size: 100%;
+  }
+
+  #insta {
+    font-size: 100%;
+  }
+
+  #footer {
+    height: 150px;
+  }
+
+  #embed-1 {
+    height: 300px;
+  }
+
+  #embed {
+    height: 300px;
+    margin-bottom: 50%;
+  }
+  .accordion {
+    background-color: transparent;
   }
 }
