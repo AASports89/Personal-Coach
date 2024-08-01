@@ -2,13 +2,13 @@
   text-align: center;
 }
 
-
 #embed-1 {
   margin-top: 1%;
   margin-bottom: 1%;
 }
 
 #embed {
+  margin-bottom: 7.5%;
   margin-bottom: 7.5%;
 }
 
@@ -249,9 +249,17 @@
 
   #embed {
     height: 300px;
-    margin-bottom: 50%;
+    margin-bottom: 40%;
   }
   .accordion {
     background-color: transparent;
+  }
+
+  #footer-bold{
+    font-size: 70%;
+  }
+
+  #royal-icon {
+    width: 12.5%;
   }
 }
