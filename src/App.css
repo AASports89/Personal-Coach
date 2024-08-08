@@ -240,7 +240,7 @@
   }
 
   #footer {
-    height: 150px;
+    height: fit-content;
   }
 
   #embed-1 {
