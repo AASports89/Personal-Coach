@@ -21,9 +21,9 @@ function App() {
             <img id="tips_icon" src={tips_icon} class="card-img-top mx-auto" alt="Quick Tips" />
               <div className="card-body">
                 <h5 className="card-title" id='tips_title'>Tip of the Day</h5>
-                  <ol className="card-text" id='tips_text'>Pick a goal at the start of your day, with no special attention to the size or importance.</ol>
-                  <ol className="card-text" id='tips_text'>By the day's end, make sure to accomplish the goal and view it as a small victory.</ol>
-                  <ol className="card-text" id='tips_text'>Small victories are a great way to boost your morale and create the drive to increase the frquency of setting goals.</ol>
+                  <p className="card-text" id='tips_text'>Pick a goal at the start of your day, with no special attention to the size or importance.</p>
+                  <p className="card-text" id='tips_text'>By the day's end, make sure to accomplish the goal and view it as a small victory.</p>
+                  <p className="card-text" id='tips_text'>Small victories are a great way to boost your morale and create the drive to increase the frquency of setting goals.</p>
                 
               </div>
           </div>
@@ -34,11 +34,11 @@ function App() {
               <div className="card-body">
                 <h5 className="card-title" id='purpose_title'>Purpose Over Pleasure™</h5>
                   <p className="card-text" id='purpose_text'>Purpose Over Pleasure™ has been a way to share my journey through life with the people around me whether friends, family or complete strangers.</p>
-                    <a id="subscribe" href="/" className="btn btn-primary">Subscribe To My Podcast</a>
+                    <a id="subscribe" href="/" className="btn btn-primary">Subscribe</a>
               </div>
           </div>
     </div>
-    <div className="col">
+    <div className="col" id='vault_col'>
     <img id="vault_icon" src={vault_icon} class="card-img-top mx-auto" alt="Vault Countdown" />
       <CountDown />
 

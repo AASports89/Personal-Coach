@@ -44,7 +44,7 @@
 }
 
 #purpose_title {
-  font-size: 50px;
+  font-size: 300%;
   font-weight: bold;
   background: -webkit-linear-gradient(#e96915, #f0e476);
   -webkit-background-clip: text;
@@ -52,7 +52,7 @@
 }
 
 #purpose_text {
-  font-size: 25px;
+  font-size: 175%;
   font-weight: bold;
 }
 
@@ -66,19 +66,21 @@
 }
 
 #tips_title {
-  font-size: 50px;
+  font-size: 300%;
   font-weight: bold;
   background: -webkit-linear-gradient(#f0e476, #999a9b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 2.5%;
 }
 
 #tips_text {
-  font-size: 20px;
+  font-size: 130%;
   font-weight: bold;
 }
 
+#vault_col {
+  margin: 2%;
+}
 
 #vault_icon {
   width: 30%;
@@ -90,7 +92,7 @@
 }
 
 #vault_title {
-  font-size: 50px;
+  font-size: 300%;
   font-weight: bold;
   background: -webkit-linear-gradient(#4299e0, #999a9b);
   -webkit-background-clip: text;
@@ -99,7 +101,7 @@
 }
 
 #vault_text {
-  font-size: 35px;
+  font-size: 200%;
   font-weight: bold;
 }
 
@@ -328,6 +330,16 @@
     margin-left: 10%;
   }
 
+  #login {
+    font-size: 50%;
+    margin-left: 10%;
+  }
+
+  #signup {
+    font-size: 50%;
+    margin-left: 10%;
+  }
+
   #logo {
     width: 35%;
     float:right
@@ -367,5 +379,38 @@
 
   #royal-icon {
     width: 12.5%;
+  }
+
+  #purpose_title {
+    font-size: 85%;
+  }
+
+  #tips_title {
+    font-size: 85%;
+  }
+
+  #vault_title {
+    font-size: 85%;
+  }
+
+  #purpose_text {
+    font-size: 65%;
+  }
+
+  #subscribe{
+    font-size: 50%;
+  }
+
+  #tips_text {
+    font-size: 65%;
+  }
+
+  #vault_text {
+    font-size: 65%;
+  }
+
+  #count_btn {
+    font-size: 50%;
+    margin-top: 10%;
   }
 }
