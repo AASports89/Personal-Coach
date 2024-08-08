@@ -2,19 +2,12 @@
   text-align: center;
 }
 
-#embed-1 {
-  margin-top: 1%;
-  margin-bottom: 1%;
-}
-
 #embed {
   margin-bottom: 7.5%;
-  margin-bottom: 7.5%;
 }
 
-#embed-2 {
-  background-image: url('https://res.cloudinary.com/dhqsixgmo/image/upload/v1722328014/Personal_Coach_Logo_BG_hqltyb.svg');
-  background-size: cover;
+#embed-1 {
+  border-radius: 0.5em;
 }
 
 #header {
@@ -37,9 +30,88 @@
   justify-content: center;
 }
 
+#purpose_row {
+  margin: 2%;
+}
+
+#purpose {
+  width: 100%;
+  background-color: transparent;
+}
+
+#subscribe {
+  width: 35%;
+}
+
+#purpose_title {
+  font-size: 50px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#e96915, #f0e476);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#purpose_text {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#purpose_logo {
+  width: 40%;
+  margin: 1%;
+}
+
+#tips_icon {
+  width: 20%;
+}
+
+#tips_title {
+  font-size: 50px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#f0e476, #999a9b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2.5%;
+}
+
+#tips_text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+#vault_icon {
+  width: 30%;
+}
+
+#vault_card {
+  width: 100%;
+  background-color: transparent;
+}
+
+#vault_title {
+  font-size: 50px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#4299e0, #999a9b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 3%;
+}
+
+#vault_text {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#count_btn {
+  width: 35%;
+}
+
 #home {
   color:rgb(6, 6, 195);
   text-decoration: none;
+  font-size: 85%;
+
 }
 
 #home-icon {
@@ -47,12 +119,44 @@
 }
 
 #home:hover {
-  color: #c7b600;
+  color: #87a2ae;
+  cursor: pointer;
+}
+
+#login {
+  color:rgb(6, 6, 195);
+  text-decoration: none;
+  font-size: 85%;
+}
+
+#login-icon {
+  margin-right: 2%;
+}
+
+#login:hover {
+  color: #87a2ae;
+  cursor: pointer;;
+}
+
+#signup {
+  color:rgb(6, 6, 195);
+  text-decoration: none;
+  font-size: 85%;
+}
+
+#signup-icon {
+  margin-right: 2%;
+}
+
+#signup:hover {
+  color: #87a2ae;
+  cursor: pointer;
 }
 
 #menu {
   color:rgb(6, 6, 195);
   text-decoration: none;
+  font-size: 85%;
 }
 
 #menu-icon {
@@ -60,13 +164,14 @@
 }
 
 #menu:hover {
-  color: #c7b600;
+  color: #87a2ae;
   cursor: pointer;
 }
 
 #custom {
   color:rgb(6, 6, 195);
   text-decoration: none;
+  font-size: 85%;
 }
 
 #custom-icon {
@@ -74,13 +179,14 @@
 }
 
 #custom:hover {
-  color: #c7b600;
+  color: #87a2ae;
   cursor: pointer;
 }
 
 #vault {
   color:rgb(6, 6, 195);
   text-decoration: none;
+  font-size: 85%;
 }
 
 #vault-icon {
@@ -88,7 +194,7 @@
 }
 
 #vault:hover {
-  color: #c7b600;
+  color: #87a2ae;
   cursor: pointer;
 }
 
@@ -134,8 +240,8 @@
 
 #twitter:hover {
   transition: all 0.3s ease-in-out;
-  font-size: 110%;
   color: rgba(128, 128, 128, 0.506);
+  font-size: 175%;
 }
 
 #insta {
@@ -146,13 +252,13 @@
 #insta:hover {
   color: rgba(128, 128, 128, 0.506);
   transition: all 0.3s ease-in-out;
-  font-size: 110%;
+  font-size: 175%;
 }
 
 #yelp:hover {
   transition: all 0.3s ease-in-out;
-  font-size: 110%;
   color: rgba(128, 128, 128, 0.506);
+  font-size: 175%;
 }
 
 #icon-link {
@@ -161,7 +267,7 @@
 
 #royal-icon {
   width: 15%;
-
+  margin: 1%;
 }
 
 #footer-bold {

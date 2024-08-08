@@ -35,12 +35,12 @@ export default function Navbar() {
             <i id='menu-icon' className="fa-regular fa-comment-dots"></i>
             Testimonials
           </a>
-          <a id='custom' data-aos="flip-right" className="accordion nav-link active" data-toggle="modal" data-target="#exampleModal">
-                    <i id='home-icon' className="fa-solid fa-user"></i>
+          <a id='login' data-aos="flip-right" className="accordion nav-link active" data-toggle="modal" data-target="#exampleModal">
+            <i id='login-icon' className="fa-solid fa-user"></i>
                     Log In
           </a>
-          <a id='custom' data-aos="flip-left" className="accordion nav-link active" href={'/signup'}>
-                    <i id='home-icon' className="fa-solid fa-user-plus"></i>
+          <a id='signup' data-aos="flip-left" className="accordion nav-link active" href={'/signup'}>
+            <i id='signup-icon' className="fa-solid fa-user-plus"></i>
                     Sign Up
           </a>
           </nav>

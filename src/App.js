@@ -2,6 +2,10 @@ import Navbar from './components/Navbar';
 import favicon from './logo.svg';
 import './App.css';
 import Aos from 'aos';
+import purpose_logo from '../src/images/purpose_logo.svg';
+import tips_icon from '../src/images/tips_icon.svg';
+import CountDown from './components/CountDown';
+import vault_icon from '../src/images/vault_icon.svg';
 
 function App() {
 
@@ -11,25 +15,43 @@ function App() {
   return(
     <div className="container-fluid">
       <Navbar />
-      <div id='embed-1' className='row'>
-      <div  className="embed-responsive embed-responsive-16by9 col-6">
+      <div className="row justify content center" id='purpose_row'>
+        <div className="col">
+        <div className="card" id="purpose">
+            <img id="tips_icon" src={tips_icon} class="card-img-top mx-auto" alt="Quick Tips" />
+              <div className="card-body">
+                <h5 className="card-title" id='tips_title'>Tip of the Day</h5>
+                  <ol className="card-text" id='tips_text'>Pick a goal at the start of your day, with no special attention to the size or importance.</ol>
+                  <ol className="card-text" id='tips_text'>By the day's end, make sure to accomplish the goal and view it as a small victory.</ol>
+                  <ol className="card-text" id='tips_text'>Small victories are a great way to boost your morale and create the drive to increase the frquency of setting goals.</ol>
+                
+              </div>
+          </div>
+    </div>
+    <div className="col">
+    <div className="card" id="purpose">
+            <img id="purpose_logo" src={purpose_logo} class="card-img-top mx-auto" alt="Purpose Over Pleasure" />
+              <div className="card-body">
+                <h5 className="card-title" id='purpose_title'>Purpose Over Pleasure™</h5>
+                  <p className="card-text" id='purpose_text'>Purpose Over Pleasure™ has been a way to share my journey through life with the people around me whether friends, family or complete strangers.</p>
+                    <a id="subscribe" href="/" className="btn btn-primary">Subscribe To My Podcast</a>
+              </div>
+          </div>
+    </div>
+    <div className="col">
+    <img id="vault_icon" src={vault_icon} class="card-img-top mx-auto" alt="Vault Countdown" />
+      <CountDown />
+
+    </div>
+  </div>
+  <div className="row mx-auto" id='embed'>
+  <div id='embed-1'  className="col embed-responsive embed-responsive-16by9 col-6">
         <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/L-iepu3EtyE?si=KzkBlzIp30dPPNbV" allowfullscreen title='Aerials - System Of A Down'></iframe>
     </div>
-
-  <div  className="embed-responsive embed-responsive-16by9 col-6">
-        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/DMofzFYtJ7I?si=7MaVv4SXjDlZhDpD" allowfullscreen title='Aerials - System Of A Down'></iframe>
-    </div>
-      </div>
-
-    <div id='embed' className="row">
-    <div className="embed-responsive embed-responsive-16by9 col-6">
+    <div id='embed-1' className="col embed-responsive embed-responsive-16by9 col-6">
         <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/_CL6n0FJZpk?si=9tDWj735vike9qRE" allowfullscreen title='Seven Nation Army - The White Stripes'></iframe>
       </div>
-      <div className="embed-responsive embed-responsive-16by9 col-6">
-        <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/0J2QdDbelmY?si=uwNmafy2-t9dKs07" allowfullscreen title='Still D.R.E - Dr. Dre ft. Snoop Dogg'></iframe>
-      </div>
   </div>
-
 
 <div className="fixed-bottom">
 <footer id='footer' className="navbar navbar-expand-lg navbar-light bg-light">
