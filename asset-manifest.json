@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Personal-Coach/static/css/main.8f345465.css",
+    "main.css": "/Personal-Coach/static/css/main.fe3a7b2d.css",
     "main.js": "/Personal-Coach/static/js/main.5ee5aed4.js",
     "static/media/logo.svg": "/Personal-Coach/static/media/logo.a8cf37fefa3cb684fcc1813cb71ed2e6.svg",
     "index.html": "/Personal-Coach/index.html",
-    "main.8f345465.css.map": "/Personal-Coach/static/css/main.8f345465.css.map",
+    "main.fe3a7b2d.css.map": "/Personal-Coach/static/css/main.fe3a7b2d.css.map",
     "main.5ee5aed4.js.map": "/Personal-Coach/static/js/main.5ee5aed4.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f345465.css",
+    "static/css/main.fe3a7b2d.css",
     "static/js/main.5ee5aed4.js"
   ]
 }
