@@ -2,7 +2,6 @@ import React, {useEffect} from 'react';
 import '../App.css';
 import Aos from 'aos';
 
-
 export default function Home() {
 	
     useEffect(() => {

@@ -1,20 +1,28 @@
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import favicon from './logo.svg';
 import './App.css';
 import Aos from 'aos';
+import CountDown from './components/CountDown';
 import purpose_logo from '../src/images/purpose_logo.svg';
 import tips_icon from '../src/images/tips_icon.svg';
-import CountDown from './components/CountDown';
 import vault_icon from '../src/images/vault_icon.svg';
 
 function App() {
 
   Aos.init({duration:3000});
   const year = new Date().getFullYear();
-  
+
   return(
     <div className="container-fluid">
-      <Navbar />
+     <Navbar />
+      <div>
+      <Routes>        
+        <Route path="/"  element={<CountDown />}/>
+      </Routes>
+      </div>
+      
       <div className="row justify content center" id='purpose_row'>
         <div className="col">
         <div className="card" id="purpose">
@@ -44,6 +52,7 @@ function App() {
 
     </div>
   </div>
+
   <div className="row mx-auto" id='embed'>
   <div id='embed-1'  className="col embed-responsive embed-responsive-16by9 col-6">
         <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/L-iepu3EtyE?si=KzkBlzIp30dPPNbV" allowfullscreen title='Aerials - System Of A Down'></iframe>
@@ -56,7 +65,9 @@ function App() {
 <div className="fixed-bottom">
 <footer id='footer' className="navbar navbar-expand-lg navbar-light bg-light">
     <div className='mx-auto'>
-    <img id="royal-icon" className='img-card-overlay' src={favicon} alt="Royal Pastry"></img>
+    <a id="icon-link" className="col px-5" href="/">
+      <img id="royal-icon" className='img-card-overlay' src={favicon} alt="Personal Coach"></img>
+    </a>
     <p className="mx-auto" data-aos="flip-down" id="footer-title"><b id="footer-bold">© Personal Coach - {year}. All Rights Reserved.</b></p>
     <a id="icon-link" className="col px-5" href="https://www.facebook.com">
       <i data-aos="slide-right" id="twitter" className="fa-brands fa-facebook"></i>
@@ -68,7 +79,7 @@ function App() {
       <i data-aos="slide-left" id="yelp" className="fa-brands fa-youtube"></i>
     </a> 
     </div>
-      </footer>
+</footer>
 </div>
 
 </div>

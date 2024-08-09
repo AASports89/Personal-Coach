@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Personal-Coach/static/css/main.af71c4f2.css",
-    "main.js": "/Personal-Coach/static/js/main.b191da4c.js",
+    "main.css": "/Personal-Coach/static/css/main.d1486037.css",
+    "main.js": "/Personal-Coach/static/js/main.7fd29cce.js",
     "static/media/purpose_logo.svg": "/Personal-Coach/static/media/purpose_logo.3b8f1272d32c189e6e33b4790b484398.svg",
     "static/media/logo.svg": "/Personal-Coach/static/media/logo.a8cf37fefa3cb684fcc1813cb71ed2e6.svg",
     "static/media/tips_icon.svg": "/Personal-Coach/static/media/tips_icon.4128bbac37f5282bafb6a25d3f6c2f84.svg",
     "static/media/vault_icon.svg": "/Personal-Coach/static/media/vault_icon.ddde017f76467376e931959e1a556315.svg",
     "index.html": "/Personal-Coach/index.html",
-    "main.af71c4f2.css.map": "/Personal-Coach/static/css/main.af71c4f2.css.map",
-    "main.b191da4c.js.map": "/Personal-Coach/static/js/main.b191da4c.js.map"
+    "main.d1486037.css.map": "/Personal-Coach/static/css/main.d1486037.css.map",
+    "main.7fd29cce.js.map": "/Personal-Coach/static/js/main.7fd29cce.js.map"
   },
   "entrypoints": [
-    "static/css/main.af71c4f2.css",
-    "static/js/main.b191da4c.js"
+    "static/css/main.d1486037.css",
+    "static/js/main.7fd29cce.js"
   ]
 }

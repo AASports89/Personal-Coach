@@ -2,8 +2,71 @@
   text-align: center;
 }
 
+#signupHeader {
+  text-align: center;
+  box-shadow: none;
+  color: whitesmoke;
+}
+
+.modal-content {
+  border: none;
+  background-color: transparent;
+}
+
+.modal-body {
+  margin-top: 5%;
+}
+
+.error {
+  color: red;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+#inputName {
+  margin-bottom: 5%;
+}
+
+#inputEmail {
+  margin-bottom: 5%;
+}
+
+#inputPassword {
+  margin-bottom: 5%;
+}
+
+#error {
+  color: rgb(190, 18, 18)
+}
+
+#signup-btn {
+  font-weight: bold;
+  padding: 2%;
+  background: -webkit-linear-gradient(#0606c3, #87a2ae);
+}
+
+#signup-btn:hover {
+  background: -webkit-linear-gradient(#6b7e97, #e6e9eb);
+  transition: all 0.3s ease-in-out;
+  width: 20%;
+  color: black;
+}
+
+#back-btn {
+  background: -webkit-linear-gradient(#6b7e97, #e6e9eb);
+  font-weight: bold;
+  padding: 2%;
+}
+
+#back-btn:hover {
+  background: -webkit-linear-gradient(#c30606, #dfbcbc);
+  transition: all 0.3s ease-in-out;
+  width: 20%;
+
+}
+
 #embed {
-  margin-bottom: 7.5%;
+  margin-bottom: 10%;
 }
 
 #embed-1 {
@@ -21,7 +84,7 @@
 }
 
 #logo {
-  width: 75%;
+  width: 40%;
 }
 
 #banner {
@@ -41,6 +104,7 @@
 
 #subscribe {
   width: 35%;
+  font-weight: bold;
 }
 
 #purpose_title {
@@ -107,13 +171,13 @@
 
 #count_btn {
   width: 35%;
+  font-weight: bold;
 }
 
 #home {
-  color:rgb(6, 6, 195);
+  color:#0606c3;
   text-decoration: none;
-  font-size: 85%;
-
+  font-size: 90%;
 }
 
 #home-icon {
@@ -123,12 +187,14 @@
 #home:hover {
   color: #87a2ae;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 105%;
 }
 
 #login {
   color:rgb(6, 6, 195);
   text-decoration: none;
-  font-size: 85%;
+  font-size: 90%;
 }
 
 #login-icon {
@@ -137,13 +203,15 @@
 
 #login:hover {
   color: #87a2ae;
-  cursor: pointer;;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 105%;
 }
 
 #signup {
   color:rgb(6, 6, 195);
   text-decoration: none;
-  font-size: 85%;
+  font-size: 90%;
 }
 
 #signup-icon {
@@ -153,42 +221,48 @@
 #signup:hover {
   color: #87a2ae;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 105%;
 }
 
-#menu {
+#resources {
   color:rgb(6, 6, 195);
   text-decoration: none;
-  font-size: 85%;
+  font-size: 90%;
 }
 
-#menu-icon {
+#resources-icon {
   margin-right: 2%;
 }
 
-#menu:hover {
+#resources:hover {
   color: #87a2ae;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 105%;
 }
 
-#custom {
+#testimonials {
   color:rgb(6, 6, 195);
   text-decoration: none;
-  font-size: 85%;
+  font-size: 90%;
 }
 
-#custom-icon {
+#testimonials-icon {
   margin-right: 2%;
 }
 
-#custom:hover {
+#testimonials:hover {
   color: #87a2ae;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 105%;
 }
 
 #vault {
   color:rgb(6, 6, 195);
   text-decoration: none;
-  font-size: 85%;
+  font-size: 90%;
 }
 
 #vault-icon {
@@ -198,27 +272,14 @@
 #vault:hover {
   color: #87a2ae;
   cursor: pointer;
-}
-
-#list {
-  margin-right: 0.5%;
-}
-
-#link1 {
-  color: #61dafb;
-  text-decoration: none;
-  width: 100%;
-}
-
-#link1:hover {
-  text-decoration: none;
-  color: #f2ed00;
+  transition: all 0.3s ease-in-out;
+  font-size: 105%;
 }
 
 #footer-card {
   background: none;
   border: none;
-  font-size: 10pt;
+  
 }
 
 #footer-title {
@@ -310,7 +371,13 @@
 }
 
 @media only screen and (max-width: 768px) {
-  #menu{
+  
+  #home {
+    font-size: 50%;
+    margin-left: 10%;
+  }
+  
+  #resources{
     font-size: 50%;
     margin-left: 10%;
   }
@@ -320,12 +387,7 @@
     margin-left: 10%;
   }
 
-  #home {
-    font-size: 50%;
-    margin-left: 10%;
-  }
-
-  #custom {
+  #testimonials {
     font-size: 50%;
     margin-left: 10%;
   }
