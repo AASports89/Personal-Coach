@@ -61,7 +61,7 @@ export default function Navbar() {
     return (
 		<div className="col-12">
       <header id='header' className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className='img-card-overlay' id="logo-over" href='/'>
+        <a className='img-card-overlay' id="logo-over" href='https://aasports89.github.io/Personal-Coach/'>
           <img id='logo' src={logo} className="card-img" alt="logo"  data-aos="slide-right"/>
         </a>
         <div className="col-10">
